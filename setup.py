@@ -32,7 +32,7 @@ setup(name              = 'Adafruit_HX8357',
       description       = 'Library to control an HX8357 TFT LCD display.',
       license           = 'MIT',
       classifiers       = classifiers,
-      url               = 'https://github.com/doogerk/Adafruit_HX8357_Python/',
+      url               = 'https://github.com/doogerk/Adafruit_Python_HX8357/',
       dependency_links  = ['https://github.com/adafruit/Adafruit_Python_GPIO/tarball/master#egg=Adafruit-GPIO-0.6.5'],
       install_requires  = ['Adafruit-GPIO>=0.6.5'],
       packages          = find_packages())
