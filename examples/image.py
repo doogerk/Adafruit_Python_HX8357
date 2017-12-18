@@ -20,7 +20,7 @@
 # THE SOFTWARE.
 from PIL import Image
 
-import Adafruit_HX3857 as TFT
+import Adafruit_HX8357 as TFT
 import Adafruit_GPIO as GPIO
 import Adafruit_GPIO.SPI as SPI
 
@@ -38,7 +38,7 @@ SPI_DEVICE = 0
 # SPI_DEVICE = 0
 
 # Create TFT LCD display class.
-disp = TFT.HX3857(DC, rst=RST, spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE, max_speed_hz=64000000))
+disp = TFT.HX8357(DC, rst=RST, spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE, max_speed_hz=64000000))
 
 # Initialize display.
 disp.begin()
