@@ -26,13 +26,13 @@ classifiers = ['Development Status :: 4 - Beta',
                'Topic :: System :: Hardware']
 
 setup(name              = 'Adafruit_HX3857',
-      version           = '1.5.1',
-      author            = 'Tony DiCola',
+      version           = '1.0.0',
+      author            = 'Tony DiCola with modifications by Doug Krafjack',
       author_email      = 'tdicola@adafruit.com',
       description       = 'Library to control an HX3857 TFT LCD display.',
       license           = 'MIT',
       classifiers       = classifiers,
-      url               = 'https://github.com/adafruit/Adafruit_Python_HX3857/',
+      url               = 'https://github.com/doogerk/Adafruit_HX3857_Python/',
       dependency_links  = ['https://github.com/adafruit/Adafruit_Python_GPIO/tarball/master#egg=Adafruit-GPIO-0.6.5'],
       install_requires  = ['Adafruit-GPIO>=0.6.5'],
       packages          = find_packages())
