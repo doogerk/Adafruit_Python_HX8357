@@ -47,8 +47,8 @@ disp.begin()
 print('Loading image...')
 image = Image.open('cat.jpg')
 
-# Resize the image and rotate it so it's 240x320 pixels.
-image = image.rotate(90).resize((240, 320))
+# Resize the image and rotate it so it's 320x480 pixels.
+image = image.rotate(90).resize((320, 480))
 
 print('Press Ctrl-C to exit')
 while(True):
