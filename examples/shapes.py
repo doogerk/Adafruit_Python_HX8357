@@ -22,7 +22,7 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-import Adafruit_ILI9341 as TFT
+import Adafruit_HX3857 as TFT
 import Adafruit_GPIO as GPIO
 import Adafruit_GPIO.SPI as SPI
 
@@ -40,7 +40,7 @@ SPI_DEVICE = 0
 # SPI_DEVICE = 0
 
 # Create TFT LCD display class.
-disp = TFT.ILI9341(DC, rst=RST, spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE, max_speed_hz=64000000))
+disp = TFT.HX3857(DC, rst=RST, spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE, max_speed_hz=64000000))
 
 # Initialize display.
 disp.begin()
