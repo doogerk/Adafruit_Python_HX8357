@@ -1,6 +1,8 @@
 Adafruit Python HX3857
 =======================
 
+***Please note that this is an exact copy of Adafruit_Python_ILI9341 with slight changes to match the HX3857 library used for Arduino. I am not sure if this will actually work, as I have not tried it yet.
+
 Python library to control an HX3857 TFT LCD display.  Allows simple drawing on the display without installing a kernel module.
 
 Designed specifically to work with the Adafruit 3.5" LCD's ----> https://www.adafruit.com/products/2441
