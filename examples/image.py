@@ -26,7 +26,7 @@ import Adafruit_GPIO.SPI as SPI
 
 
 # Raspberry Pi configuration.
-DC = 18
+DC = 25#18
 RST = 23
 SPI_PORT = 0
 SPI_DEVICE = 0
