@@ -34,8 +34,8 @@ import Adafruit_GPIO.SPI as SPI
 
 
 # Constants for interacting with display registers.
-HX3857D             = 0xD
-HX3857B             = 0xB
+HX8357D             = 0xD
+HX8357B             = 0xB
 
 HX8357_TFTWIDTH     = 320#
 HX8357_TFTHEIGHT    = 480#
